@@ -430,7 +430,7 @@ static char *ngx_core_module_init_conf(ngx_cycle_t *cycle, void *conf)
 
     if (ccf->pid.len == 0) {
         ccf->pid.len = sizeof(NGX_PID_PATH) - 1;
-        ccf->pid.data = NGX_PID_PATH;
+        ccf->pid.data = (u_char *) NGX_PID_PATH;
     }
 
     if (ngx_conf_full_name(cycle, &ccf->pid) == NGX_ERROR) {

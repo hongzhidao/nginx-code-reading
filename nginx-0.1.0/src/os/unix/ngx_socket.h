@@ -32,6 +32,9 @@ int ngx_blocking(ngx_socket_t s);
 #define ngx_nonblocking(s)  fcntl(s, F_SETFL, O_NONBLOCK)
 #define ngx_nonblocking_n   "fcntl(O_NONBLOCK)"
 
+#define ngx_blocking(s)     fcntl(s, F_SETFL, fcntl(s, F_GETFL) & ~O_NONBLOCK)
+#define ngx_blocking_n      "fcntl(!O_NONBLOCK)"
+
 #endif
 
 int ngx_tcp_nopush(ngx_socket_t s);

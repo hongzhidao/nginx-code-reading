@@ -690,6 +690,7 @@ ngx_int_t ngx_http_parse_complex_uri(ngx_http_request_t *r)
                 break;
             case '.':
                 r->uri_ext = u + 1;
+                /* Fall through */
             default:
                 *u++ = ch;
                 break;

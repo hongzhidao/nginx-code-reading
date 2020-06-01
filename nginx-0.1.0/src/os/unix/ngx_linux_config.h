@@ -43,9 +43,11 @@
 #include <netdb.h>
 
 #include <time.h>               /* tzset() */
+#include <limits.h>               /* tzset() */
 #include <sys/ioctl.h>
 #include <sys/sysctl.h>
 #include <netinet/tcp.h>        /* TCP_CORK */
+#include <sys/utsname.h>        /* uname() */
 
 
 #include <ngx_auto_config.h>

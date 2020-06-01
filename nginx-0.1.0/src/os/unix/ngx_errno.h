@@ -52,7 +52,7 @@ ngx_int_t ngx_strerror_r(int err, char *errstr, size_t size);
 #else
 
 #define ngx_strerror_r(err, errstr, size)  \
-             (char *) ngx_cpystrn(errstr, strerror(err), size) - (errstr)
+             (char *) ngx_cpystrn((u_char *) errstr, (u_char *) strerror(err), size) - (errstr)
 
 #endif
 

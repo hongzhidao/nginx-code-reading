@@ -477,8 +477,9 @@ int ngx_epoll_process_events(ngx_cycle_t *cycle)
     }
 
     if (err) {
-        ngx_log_error((err == NGX_EINTR) ? NGX_LOG_INFO : NGX_LOG_ALERT,
-                      cycle->log, err, "epoll_wait() failed");
+        ngx_uint_t  level;
+        level = (err == NGX_EINTR) ? NGX_LOG_INFO : NGX_LOG_ALERT;
+        ngx_log_error(level, cycle->log, err, "epoll_wait() failed");
         ngx_accept_mutex_unlock();
         return NGX_ERROR;
     }

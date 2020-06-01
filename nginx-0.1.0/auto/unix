@@ -171,8 +171,10 @@ ngx_feature_run=no
 
 ngx_feature="struct msghdr.msg_control"
 ngx_feature_name="msghdr_msg_control"
-ngx_feature_inc="#include <sys/socket.h>"
-ngx_feature_test="struct msghdr  msg; msg.msg_control = NULL"
+ngx_feature_inc="#include <sys/socket.h>
+                 #include <stdio.h>"
+ngx_feature_test="struct msghdr  msg;
+                  printf(\"%d\", (int) sizeof(msg.msg_control))"
 . auto/feature
 
 
