@@ -1,0 +1,416 @@
+
+checking for unistd.h
+
+checking for inttypes.h
+
+checking for epoll
+
+checking for sendfile()
+
+checking for sendfile64()
+
+checking for prctl()
+
+checking for PCRE library library
+
+checking for zlib library library
+
+checking for int size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(int));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:8:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(int));
+     ^~~~~~
+
+checking for int printf() format
+
+checking for long size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(long));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:8:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(long));
+     ^~~~~~
+
+checking for long printf() format
+
+checking for long long size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(long long));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:8:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(long long));
+     ^~~~~~
+
+checking for long long printf() format
+
+checking for void * size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(void *));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:8:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(void *));
+     ^~~~~~
+
+checking for void * printf() format
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:3:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%ld", (void *) 9223372036854775807LL);
+     ^~~~~~
+objs/autotest.c:3:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:3:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:1:1:
++#include <stdio.h>
+ 
+objs/autotest.c:3:5:
+     printf("%ld", (void *) 9223372036854775807LL);
+     ^~~~~~
+
+checking for uint64_t
+
+checking for sig_atomic_t
+
+checking for sig_atomic_t size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(sig_atomic_t));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:9:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(sig_atomic_t));
+     ^~~~~~
+
+checking for socklen_t
+
+checking for in_addr_t
+
+checking for in_port_t
+
+checking for rlim_t
+
+checking for uintptr_t
+
+checking for system endianess
+
+checking for off_t size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(off_t));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:9:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(off_t));
+     ^~~~~~
+
+checking for off_t printf() format
+
+checking for time_t size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(time_t));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:9:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(time_t));
+     ^~~~~~
+
+checking for time_t printf() format
+
+checking for size_t size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(size_t));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:9:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(size_t));
+     ^~~~~~
+
+checking for size_t printf() format
+
+checking for pid_t size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(pid_t));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:9:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(pid_t));
+     ^~~~~~
+
+checking for pid_t printf() format
+
+checking for rlim_t size
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("%d", sizeof(rlim_t));
+     ^~~~~~
+objs/autotest.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+objs/autotest.c:9:1:
++#include <stdio.h>
+ 
+objs/autotest.c:11:5:
+     printf("%d", sizeof(rlim_t));
+     ^~~~~~
+
+checking for rlim_t printf() format
+
+checking for pread()
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:26: error: variable ‘n’ set but not used [-Werror=unused-but-set-variable]
+     char buf[1]; ssize_t n; n = pread(0, buf, 1, 0);
+                          ^
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+
+
+int main() {
+    char buf[1]; ssize_t n; n = pread(0, buf, 1, 0);
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for pwrite()
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:26: error: variable ‘n’ set but not used [-Werror=unused-but-set-variable]
+     char buf[1]; ssize_t n; n = pwrite(1, buf, 1, 0);
+                          ^
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+
+
+int main() {
+    char buf[1]; ssize_t n; n = pwrite(1, buf, 1, 0);
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for strerror_r()
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:28: error: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Werror=int-conversion]
+     char buf[20]; int n; n = strerror_r(1, buf, 20);
+                            ^
+objs/autotest.c:7:23: error: variable ‘n’ set but not used [-Werror=unused-but-set-variable]
+     char buf[20]; int n; n = strerror_r(1, buf, 20);
+                       ^
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <string.h>
+
+int main() {
+    char buf[20]; int n; n = strerror_r(1, buf, 20);
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for gnu_strerror_r()
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:20: error: variable ‘str’ set but not used [-Werror=unused-but-set-variable]
+     char buf[20], *str; str = strerror_r(1, buf, 20);
+                    ^~~
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <string.h>
+
+int main() {
+    char buf[20], *str; str = strerror_r(1, buf, 20);
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for localtime_r()
+
+checking for posix_memalign()
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:18: error: variable ‘n’ set but not used [-Werror=unused-but-set-variable]
+     void *p; int n; n = posix_memalign(&p, 4096, 4096);
+                  ^
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main() {
+    void *p; int n; n = posix_memalign(&p, 4096, 4096);
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for memalign()
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:18: error: implicit declaration of function ‘memalign’; did you mean ‘main’? [-Werror=implicit-function-declaration]
+     void *p; p = memalign(4096, 4096);
+                  ^~~~~~~~
+                  main
+objs/autotest.c:7:16: error: assignment to ‘void *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+     void *p; p = memalign(4096, 4096);
+                ^
+objs/autotest.c:7:11: error: variable ‘p’ set but not used [-Werror=unused-but-set-variable]
+     void *p; p = memalign(4096, 4096);
+           ^
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main() {
+    void *p; p = memalign(4096, 4096);
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for mmap(MAP_ANON|MAP_SHARED)
+
+checking for mmap("/dev/zero", MAP_SHARED)
+
+checking for System V shared memory
+
+checking for struct sockaddr_in.sin_len
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:8:31: error: ‘struct sockaddr_in’ has no member named ‘sin_len’; did you mean ‘sin_zero’?
+     struct sockaddr_in sa; sa.sin_len = 5;
+                               ^~~~~~~
+                               sin_zero
+objs/autotest.c:8:24: error: variable ‘sa’ set but not used [-Werror=unused-but-set-variable]
+     struct sockaddr_in sa; sa.sin_len = 5;
+                        ^~
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+int main() {
+    struct sockaddr_in sa; sa.sin_len = 5;
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for struct msghdr.msg_control
+
+checking for ioctl(FIONBIO)
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:9: error: variable ‘i’ set but not used [-Werror=unused-but-set-variable]
+     int i; i = FIONBIO;
+         ^
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+
+int main() {
+    int i; i = FIONBIO;
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
+
+checking for struct tm.tm_gmtoff
+objs/autotest.c: In function ‘main’:
+objs/autotest.c:7:16: error: variable ‘tm’ set but not used [-Werror=unused-but-set-variable]
+     struct tm  tm; tm.tm_gmtoff = 0;
+                ^~
+cc1: all warnings being treated as errors
+---------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <time.h>
+
+int main() {
+    struct tm  tm; tm.tm_gmtoff = 0;
+    return 0;
+}
+
+---------
+gcc -Wall -Werror -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -o objs/autotest objs/autotest.c
+---------
